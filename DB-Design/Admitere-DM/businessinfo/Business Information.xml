@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="C334BFF8-B8F4-BA3B-BFE6-584EA82B7F35">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 11:53:09 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 11:53:09 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

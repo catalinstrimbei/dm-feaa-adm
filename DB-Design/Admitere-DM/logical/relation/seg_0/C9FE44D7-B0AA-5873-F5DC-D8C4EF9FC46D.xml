@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DATEGEN_LOC1" id="C9FE44D7-B0AA-5873-F5DC-D8C4EF9FC46D" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>C4DB5957-C7BD-AF9B-1C5A-815BC6FB1D2C</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>F22F29C2-0639-1601-9D03-9B476C4A2EFA</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>89D76181-B4D3-E6D8-ABB6-F0B974B087D8</targetEntity>
+   <transferable>true</transferable>
+</Relation>

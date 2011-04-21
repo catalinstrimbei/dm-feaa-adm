@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CollectionType class="oracle.dbtools.crest.model.design.datatypes.CollectionType" name="T_NT_OPTIUNI_MASTER" id="C8E6B773-D6BE-70E0-15E2-994BE3F24E5B" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:02 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:02 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <predefined>false</predefined>
+   <dataTypeDescr class="oracle.dbtools.crest.model.design.datatypes.CollectionType$DataTypeWrapper">
+      <size>10</size>
+      <type>LOGDT024</type>
+      <isreference>false</isreference>
+   </dataTypeDescr>
+   <maxElement>1</maxElement>
+   <type>COLLECTION</type>
+</CollectionType>

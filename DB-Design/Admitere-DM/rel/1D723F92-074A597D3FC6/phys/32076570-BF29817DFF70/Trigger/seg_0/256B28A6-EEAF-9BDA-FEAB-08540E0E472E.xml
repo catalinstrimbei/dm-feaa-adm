@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_LOCALITATI_UPD_AFTER_ROW" id="256B28A6-EEAF-9BDA-FEAB-08540E0E472E" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <actions>UPDATE</actions>
+   <body>BEGIN&amp;lt;br/&amp;gt;    IF :OLD.idloc &amp;lt;&amp;gt; :NEW.idloc THEN  &amp;lt;br/&amp;gt;        UPDATE dategen SET idlocnast = :NEW.idloc WHERE idlocnast = :OLD.idloc ;&amp;lt;br/&amp;gt;        UPDATE dategen SET idlocbi = :NEW.idloc WHERE idlocbi = :OLD.idloc ;&amp;lt;br/&amp;gt;        UPDATE licee SET idloc = :NEW.idloc WHERE idloc = :OLD.idloc ;&amp;lt;br/&amp;gt;    END IF ;            &amp;lt;br/&amp;gt;END ;&amp;lt;br/&amp;gt;</body>
+   <triggerTime>AFTER</triggerTime>
+   <columns>FBCACAD6-A574-CA07-43BF-3DF319ABF01D</columns>
+   <owner>A19B0135-B306-9C2F-77BB-38712D8BCDB5</owner>
+   <table>D5A691B0-4367-2347-0FF6-71D7ED8A1081</table>
+</TriggerOraclev10g>

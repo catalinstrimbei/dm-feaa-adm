@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SPEC_PROFILDUR" id="DBB8D1F9-7BA7-9025-9285-967BDBA17F2E" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>2245053A-1D0F-FC3D-92E5-ACBDEBD66489</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <identifying>true</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>40F29284-1D7A-3016-25A1-6D9E99305266</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>14168120-0009-4A5B-BEDC-00DAB3656252</targetEntity>
+   <transferable>true</transferable>
+</Relation>

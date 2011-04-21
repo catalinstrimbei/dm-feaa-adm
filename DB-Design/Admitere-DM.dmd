@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Admitere-DM" id="B40B52AF-D542-8921-5901-D660BA66E3BF" version="3.4">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 11:53:07 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:50:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <capitalNames>false</capitalNames>
+   <designId>B40B52AF-D542-8921-5901-D660BA66E3BF</designId>
+</OSDM_Design>

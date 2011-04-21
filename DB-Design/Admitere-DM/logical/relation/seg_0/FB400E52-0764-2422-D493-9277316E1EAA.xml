@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_LICEE_LOCALITATI" id="FB400E52-0764-2422-D493-9277316E1EAA" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>9076A7F0-50DE-CE6C-AD0E-FF035E1B5978</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>F22F29C2-0639-1601-9D03-9B476C4A2EFA</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>EC0A7CA6-4468-A17D-3F67-E585DDA49B8E</targetEntity>
+   <transferable>true</transferable>
+</Relation>

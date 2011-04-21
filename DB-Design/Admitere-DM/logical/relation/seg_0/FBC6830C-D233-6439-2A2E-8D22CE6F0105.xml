@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SYS_C0024044" id="FBC6830C-D233-6439-2A2E-8D22CE6F0105" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>6CF5A5A4-DAC4-649A-EEB6-6FC6D3169877</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <identifying>true</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>5165D78B-5B8A-38EF-D6D1-E48C84CCE57B</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>B193B219-6616-00CC-DE52-404C478BA82A</targetEntity>
+   <transferable>true</transferable>
+</Relation>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_MODIFICARI_INS_BEFORE_ROW" id="84BD6B09-07A7-8051-E982-06C678FA4CD1" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <actions>INSERT</actions>
+   <body>BEGIN &amp;lt;br/&amp;gt;    --SELECT  admitere.seq_idmodif.NextVal INTO :NEW.idmodif FROM dual ;    &amp;lt;br/&amp;gt;    :NEW.dataoram := SYSDATE ; &amp;lt;br/&amp;gt;    :NEW.operator := admitere.pac_variabile_globale.vg_operator ;&amp;lt;br/&amp;gt;    :NEW.statiem := admitere.pac_variabile_globale.vg_statie ;&amp;lt;br/&amp;gt;END ;&amp;lt;br/&amp;gt;</body>
+   <triggerTime>BEFORE</triggerTime>
+   <owner>A19B0135-B306-9C2F-77BB-38712D8BCDB5</owner>
+   <table>FD35D6E9-5B2C-DBE1-ECA2-A5CB6510AE6D</table>
+</TriggerOraclev10g>

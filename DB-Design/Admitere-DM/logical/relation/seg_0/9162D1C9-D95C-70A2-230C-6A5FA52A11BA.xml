@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FISAINSCRIERE_LICEE_FK1" id="9162D1C9-D95C-70A2-230C-6A5FA52A11BA" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>069F37BC-C663-92CA-8BEE-A5333CABF8AA</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>EC0A7CA6-4468-A17D-3F67-E585DDA49B8E</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>F821C185-076D-19CE-A5E4-6EC7F37814EA</targetEntity>
+   <transferable>true</transferable>
+</Relation>

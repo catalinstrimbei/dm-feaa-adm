@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_NOMOPTIUNI_TIPURIFISE" id="FE9D66E1-D99D-9E48-6548-A226FA2D4AE5" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>93FCCF81-CBD7-752D-8691-E56B41FD0864</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>F65F086A-577F-FDE9-25A7-585D4EB42307</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>5997B41C-FAF8-D8A1-EEB0-37BFE502769E</targetEntity>
+   <transferable>true</transferable>
+</Relation>

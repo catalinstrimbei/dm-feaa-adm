@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="50C66C5F-A4EA-9B7D-B3A9-06BE08038C51" directorySegmentName="seg_0" name="FISE_NOTE_DISCIPLINE_FK2">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <containerWithKeyObject>5E581CA3-E530-7A58-95B2-16CBE4B788F6</containerWithKeyObject>
+   <deleteRule>NO ACTION</deleteRule>
+   <localFKIndex>A55DB43B-4AC8-813E-6260-EF7525D2AB3E</localFKIndex>
+   <keyObject>752BA586-BAE2-06FC-11BB-53D31F2D9D3A</keyObject>
+   <mandatory>false</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

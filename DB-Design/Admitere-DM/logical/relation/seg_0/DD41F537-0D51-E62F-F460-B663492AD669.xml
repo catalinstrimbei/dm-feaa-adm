@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DATEGEN_CODLICEU" id="DD41F537-0D51-E62F-F460-B663492AD669" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>79432977-B05E-0B6D-3FEE-2B0A05C7F4A7</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>EC0A7CA6-4468-A17D-3F67-E585DDA49B8E</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>89D76181-B4D3-E6D8-ABB6-F0B974B087D8</targetEntity>
+   <transferable>true</transferable>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ORASCOM_JUDETE" id="A67E817A-24F7-A5B9-447E-36AD84079981" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>85546128-EA6F-BC3B-D32A-A1310FC50EB7</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>24BEF3E2-30BC-A3BF-1648-68D26DC28772</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>1446080B-50D8-7E1B-53ED-AE6D5CC45EC2</targetEntity>
+   <transferable>true</transferable>
+</Relation>

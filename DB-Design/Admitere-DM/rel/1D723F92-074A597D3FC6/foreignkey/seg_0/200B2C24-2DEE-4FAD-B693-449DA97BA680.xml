@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="200B2C24-2DEE-4FAD-B693-449DA97BA680" directorySegmentName="seg_0" name="FK_MOTORAS_LOCURI_ID">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <containerWithKeyObject>E46852FD-095E-F9C5-C2F6-14C23658958F</containerWithKeyObject>
+   <deleteRule>CASCADE</deleteRule>
+   <localFKIndex>B9BE9168-E4C7-84B8-D364-7BF7DF024207</localFKIndex>
+   <keyObject>DE379886-D852-5664-1CA3-31A752A2A00E</keyObject>
+   <mandatory>false</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

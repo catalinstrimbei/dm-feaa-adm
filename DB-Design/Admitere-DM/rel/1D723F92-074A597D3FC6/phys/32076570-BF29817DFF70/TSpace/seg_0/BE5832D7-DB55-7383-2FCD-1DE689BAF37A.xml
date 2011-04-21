@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" id="BE5832D7-DB55-7383-2FCD-1DE689BAF37A" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:03 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:03 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <emUniformSize>0</emUniformSize>
+   <extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

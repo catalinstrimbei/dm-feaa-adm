@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_STARI_UPD_DEL" id="F342881B-5E0E-24A8-8794-A8A8336294B6" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <actions>UPDATE, DELETE</actions>
+   <body>BEGIN&amp;lt;br/&amp;gt;  RAISE_APPLICATION_ERROR(-20135, &amp;apos;In tabela STARI_CANDIDAT pot fi facute numai inserari !&amp;apos;);&amp;lt;br/&amp;gt;END;&amp;lt;br/&amp;gt;</body>
+   <triggerTime>BEFORE</triggerTime>
+   <owner>A19B0135-B306-9C2F-77BB-38712D8BCDB5</owner>
+   <table>BAEE0ACB-DF52-370F-3300-CD91BB604FEC</table>
+</TriggerOraclev10g>

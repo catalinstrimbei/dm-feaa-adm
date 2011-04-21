@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MOTORAS_LOCURI_ID" id="D989672D-0530-F9DB-F622-65E80DB61A3B" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>200B2C24-2DEE-4FAD-B693-449DA97BA680</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>69EB8A16-D9DC-7D22-2F8B-B4072372574A</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>C0C73B13-743D-297A-103F-B9F39CB5FF64</targetEntity>
+   <transferable>true</transferable>
+</Relation>

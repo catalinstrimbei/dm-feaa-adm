@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_FISE_NOTE_UPD_BEFORE_ROW" id="8AAB8555-ED90-4075-BB0E-24F481071FCE" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <actions>UPDATE</actions>
+   <body>DECLARE&amp;lt;br/&amp;gt;    v_are_voie BOOLEAN := FALSE ;&amp;lt;br/&amp;gt;    v_instante_fisa t_nt_fisainscriere3 ;&amp;lt;br/&amp;gt;BEGIN  &amp;lt;br/&amp;gt;  IF :NEW.idfisa &amp;lt;&amp;gt; :OLD.idfisa THEN &amp;lt;br/&amp;gt;        RAISE_APPLICATION_ERROR (-20159,&amp;apos;IDul fisei nu poate fi modificat !&amp;apos;) ; &amp;lt;br/&amp;gt;  END IF ;&amp;lt;br/&amp;gt;  IF pac_variabile_globale.vg_idfisa_crt IS NULL OR &amp;lt;br/&amp;gt;        pac_variabile_globale.vg_idfisa_crt &amp;lt;&amp;gt; :NEW.idfisa THEN  &amp;lt;br/&amp;gt;    pac_variabile_globale.vg_idfisa_crt := :NEW.idfisa ;&amp;lt;br/&amp;gt;  END IF ;  &amp;lt;br/&amp;gt;END ;&amp;lt;br/&amp;gt;</body>
+   <triggerTime>BEFORE</triggerTime>
+   <owner>A19B0135-B306-9C2F-77BB-38712D8BCDB5</owner>
+   <table>5E581CA3-E530-7A58-95B2-16CBE4B788F6</table>
+</TriggerOraclev10g>

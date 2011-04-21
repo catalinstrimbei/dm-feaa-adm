@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="D5A691B0-4367-2347-0FF6-71D7ED8A1081" directorySegmentName="seg_0" name="LOCALITATI">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <schemaObject>C0EC9293-EE5C-6792-CD70-97B22C98F4FB</schemaObject>
+   <pkName>PK_LOCALITATI</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="IDLOC" id="FBCACAD6-A574-CA07-43BF-3DF319ABF01D">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CODPOSTVECHI" id="ED2E79B6-98F2-73BB-88CB-4BA798270294">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>5 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="LOCALITATE" id="FABF27BD-3E69-A365-D563-E9746F05FE24">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>53 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="JUD" id="3DDE945C-303A-5964-C3AC-9C2E616CAD7F">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>2 BYTE</dataTypeSize>
+         <delegate>BEB24851-03B5-726B-604E-CEF74E090CEC</delegate>
+         <associations>
+            <colAssociation fkAssociation="907DF580-4EA6-2AA5-8E4B-7C3574E72CA7" referredColumn="BEB24851-03B5-726B-604E-CEF74E090CEC"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CODPOSTNOU" id="EC511A95-7DFC-3E4B-3901-083A7585AE86">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>10 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MEDIU" id="6D4C0386-B983-FCFC-04D6-33BC3C15EAF1">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:05 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <constraintName>CK_MEDIU</constraintName>
+         <nullsAllowed>true</nullsAllowed>
+         <useDomainConstraints>false</useDomainConstraints>
+         <defaultValue>&amp;apos;U&amp;apos; </defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 11g" definition="MEDIU IN ('U','R')"/>
+         </checkConstraint>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C84238D3-2574-6186-3052-99AACB7A6755" name="PK_LOCALITATI">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:05 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:05 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <schemaObject>C0EC9293-EE5C-6792-CD70-97B22C98F4FB</schemaObject>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="FBCACAD6-A574-CA07-43BF-3DF319ABF01D"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="848F1309-C3CE-A933-F060-615206EBB981" name="FK_LOCALITATI_JUDETE">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="3DDE945C-303A-5964-C3AC-9C2E616CAD7F"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

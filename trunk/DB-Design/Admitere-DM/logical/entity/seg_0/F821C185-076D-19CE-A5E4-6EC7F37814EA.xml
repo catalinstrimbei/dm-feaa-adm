@@ -1,0 +1,835 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="F821C185-076D-19CE-A5E4-6EC7F37814EA" directorySegmentName="seg_0" name="FISAINSCRIERE">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>0A66D509-BA34-D29E-4656-9909455710E1</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <pkName>PK_FISAINSCRIERE</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CNP" id="B065D7C7-B0B4-4154-196E-A79A42292ECF">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>1FC9D122-A253-D8B3-8FF7-8729CCEB5F07</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <referedAttribute>4DAA0E15-300C-EE7F-1FF3-3DA83F2E79E4</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>14 BYTE</dataTypeSize>
+         <propertyMap>
+            <property name="refers.attribute" value="4DAA0E15-300C-EE7F-1FF3-3DA83F2E79E4"/>
+         </propertyMap>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="NRFISA" id="792D11BD-E952-7775-C696-02B07A988DE6">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>76188AC1-2DA0-FF81-674A-7FBE820CD197</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CHIT" id="DDE1620A-125F-7C1B-ADE8-8A4FBC9FEFF3">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>7FD9C34E-EB7C-F3D2-BBD5-068DF68CAD55</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <dataTypeSize>15 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SUMA" id="28D13196-C7D4-9EA1-0C20-2896DEFFE93A">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>1C7AB518-EBBF-FE9F-8EAC-04955631FC27</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SCUTIT" id="52A3824B-5AD7-8BB4-EF1A-8689F0BB74EC">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>31B1F3E6-FDD6-055D-7881-65AAD1299763</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <constraintName>CK_SCUTIT</constraintName>
+         <useDomainConstraints>false</useDomainConstraints>
+         <defaultValue>0&amp;lt;br/&amp;gt;</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>1</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 11g" definition="SCUTIT in ('0','1')"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="IDFISA" id="14BC8A7E-3A75-8162-D5E5-3261AD2C35FB">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>891F9DA5-D663-176F-2C88-70CEF07B5F01</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>5</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SITUATIECRT" id="2F8F4E8B-6F01-3158-3E4C-02D027E662B6">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>CD739F47-E89F-2BD2-50CB-2EB5E8CAE410</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>200 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="TIPFISA" id="34A7E7D0-210E-497E-1CC2-2C680A1E4628">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>C3B12686-CCC5-1A43-BC5D-FA5C37CB02B4</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <referedAttribute>CC56D2DF-0F2E-7932-A35D-43B3BC692871</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>10 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CONTRACT" id="89B26E18-69BE-8ECD-AD43-A7B37B7A7AD7">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>19FDC3E8-5F57-67B0-C5D6-6388DF33BB9A</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>0 </defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="RETRAS" id="C3A818E2-E677-EDF6-3193-182DE48799FF">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>7CD9E918-8B2E-B5FF-AAED-A271259FC32D</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <constraintName>CK_RETRAS</constraintName>
+         <nullsAllowed>true</nullsAllowed>
+         <useDomainConstraints>false</useDomainConstraints>
+         <defaultValue>0 </defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>1</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 11g" definition="RETRAS in ('0','1')"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="OPINSCRIERE" id="F05BF67E-CB4E-601C-DB40-B4EC936D8FEB">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <commentInRDBMS>operator inscriere</commentInRDBMS>
+         <generatorID>A65C6B9F-FCED-FD27-FE61-E8CAB30C30E8</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="OPCORECTIE" id="E6589BE0-2EB9-5123-E026-46C2E9C3DAF8">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <commentInRDBMS>operator corectie</commentInRDBMS>
+         <generatorID>AACE9D53-E817-499F-ACD9-486A91D73C85</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="STINSCRIERE" id="827DA190-4052-653A-4429-F27FEBD543B3">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <commentInRDBMS>statie inscriere</commentInRDBMS>
+         <generatorID>D8005D2A-456B-D956-38CC-F7F8455C74FF</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="STCORECTIE" id="938A7AFB-18D7-945D-4FC3-09004E1FBC5A">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <commentInRDBMS>statie corectie</commentInRDBMS>
+         <generatorID>43CBE92C-D1F5-B2A5-E505-76FE9B0ED0BF</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DATAINSCRIERE" id="2BABAC58-4B3F-0AFA-5641-6FFBF2FBBBDF">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <commentInRDBMS>data inscriere</commentInRDBMS>
+         <generatorID>ADC8C35D-C97E-2AC9-0959-C956C768B607</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <dataTypeSize>7</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DATACORECTIE" id="CB22565A-CD98-165A-4244-AEC7A745EE50">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <commentInRDBMS>data corectie</commentInRDBMS>
+         <generatorID>A617D72E-1152-160A-EFD7-EF142930D389</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <dataTypeSize>7</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PROFILADM" id="27AB3528-CC35-376B-2D95-577DBF279315">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>32A1B44C-3B54-1B99-24E0-9F157A757571</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>10 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="FSTUDIIADM" id="F8D1F2EB-DC25-E0CD-669B-136CEE0E568A">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>6142E4F6-DF1C-4E69-2EF1-E4DF0C4EA1DD</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="TAXAADM" id="7BC59250-3382-9CA0-E096-51D0B01E7E06">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>73151BAA-DDAD-013E-C2BE-005C919E8231</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CHITCONTRACT" id="29B193C0-FB56-0653-3176-11FBD73C830F">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>46099502-BA94-A949-7DA0-7D081A360D42</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>15 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SUMACONTRACT" id="969F96BF-AA6A-AFF0-517F-C6539C78B870">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>77E2A70D-E95F-5454-A710-9AF5B23BAA40</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>0 </defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>12</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="LOCADM" id="E484DF95-4275-B82F-729E-AFFA535E08EC">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>B25F2E0C-F853-29BC-6F26-D47E80238D42</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>2 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="OBSERVATII" id="6011E142-26B2-8B23-4CDC-383ECA63E31E">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>29E88E62-3FE5-F4E7-03A2-65E85B890038</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>1000 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="VERDICT" id="C71BD7D2-9256-D29D-2C88-59CBF948BC00">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>9651C648-5AE4-1FF7-6687-B767BF7FC8B9</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>500 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="FORTAT" id="16989B7C-09B4-BA84-8F96-449D14BAB1DC">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>7FDC5724-4373-2590-EFB8-E113A70D4607</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <defaultValue>0 </defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>1</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="LOC" id="5D24025C-6CE6-9226-557D-083AA94A18B4">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>A76D6540-657D-E302-5E79-09F09ACBBFB3</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <defaultValue>&amp;apos;IS&amp;apos;&amp;lt;br/&amp;gt;</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>3 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SCUTIRE_MOTIVATIE" id="717B6F65-072C-AAFC-578E-A6A166261CDF">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>C115A319-9E39-C29C-634A-370520FDFC61</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="LBSTRAINA" id="67E7DEBD-74EA-20CF-490A-1BE032EBFAA3">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>230567D8-6192-1D9D-A8D7-37CF5B08F49E</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>200 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="LOCSPECIAL" id="33916D73-7061-5703-89DD-F06745AA6B93">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>E77C561E-6895-5A15-7217-AFD3B949711B</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SCUTITORFAN" id="8F686D9E-1460-595E-8DE6-A3047E5135CE">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>3EDCADC5-53B5-3E8C-EE53-4D8762613B84</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>1</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SCUTITPLASAMENT" id="86AC169A-85F1-4086-B67F-83F4767E5DBB">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>AB0D5953-3382-27BB-6B88-A1C4417DFC50</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>1</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="NRADEVERINTE" id="20D49346-2D1E-8131-2AED-1C2C57B67B48">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>2BA6FCC0-F27A-1230-F551-F61B733448EF</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>2</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="MEDGENADM" id="62E5981B-965A-F892-DE16-1B3A1570E2ED">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>373C4774-8A26-355B-D5AD-40CB02063E6D</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>5</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLBAC" id="C4A2ACDA-2567-DE73-0507-4C6EDE61FFD8">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>26723FA7-03CA-83E9-68AA-D9F583470A66</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <constraintName>CK1_DIPLBAC</constraintName>
+         <useDomainConstraints>false</useDomainConstraints>
+         <defaultValue>&amp;apos;N&amp;apos; </defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 11g" definition="DIPLBAC IN ('D','N')"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLORIG" id="A0741290-C736-9A5F-9FBE-72C139554F3C">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>11D2FEEB-965D-8290-597B-F2A675C1AEF2</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <constraintName>CK1_DIPLORIG</constraintName>
+         <nullsAllowed>true</nullsAllowed>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>1</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 11g" definition="DIPLORIG in (0,1)"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLSERIE" id="578EEA57-34E1-0893-A665-0FE678661D6F">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>A0EB499F-23ED-4B9E-4D55-483D7B87D965</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>2 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLNR" id="52557821-19C7-E146-3FB7-4B10EF2AADCB">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>C4BB9183-DD36-F5F3-0BE1-2D27C50EFE64</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>10 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLDATA" id="F8F42942-C78D-A60B-A510-02651E0BD838">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>6F1AA86B-01F6-57EC-9965-6DAD6A449071</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <dataTypeSize>7</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ADEV_LIC" id="C2DEA0CF-F177-E3CF-EDF1-D5F9939FDC3B">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>3AAA4B07-E749-544C-70FF-F93E9AB56580</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <constraintName>CK1_ADEV_LIC</constraintName>
+         <useDomainConstraints>false</useDomainConstraints>
+         <defaultValue>&amp;apos;N&amp;apos; </defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 11g" definition="adev_lic IN ('D','N')"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ADEV_ORIGINAL" id="FB2037B3-BAA1-B726-3DCE-F154076EA870">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>C1F12136-4DEA-9F00-3A8C-D9E86F54A800</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <constraintName>CK1_ADEV_ORIGINAL</constraintName>
+         <useDomainConstraints>false</useDomainConstraints>
+         <defaultValue>&amp;apos;N&amp;apos; </defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 11g" definition="adev_original IN ('D','N')"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ADEV_DATA" id="F9089455-7ECF-F8F2-4A7F-F7C208134EFA">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>8C26473A-A9E4-500B-520F-64E5BB42995D</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <dataTypeSize>7</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLLICENTA" id="F19076B4-5FA4-0323-A348-CCA539366350">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>7F203D5C-3BEB-C760-605B-DF3038713943</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLLICENTAORIG" id="72FAD862-72A0-AB0A-AA02-8A49BFAF966F">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>AEF8E4C9-B235-ECFB-2551-7FB56F712252</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>1</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLLICENTASERIE" id="6980C7B2-BC0C-EF78-25CE-ECE07FC97594">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>BC186ECB-4326-2B47-4C57-4240954A560C</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>8 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLLICENTANR" id="F48573CE-565D-D087-6874-A3D53BC1075D">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>847DC34D-AF0F-7C7F-C2F3-9E0CD7936446</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>16 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLLICENTADATA" id="F2BADC16-3B83-5A9F-D17F-BD1EB2FB8BBB">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>2D715452-DA3E-EC49-3006-157B3EDFDCF3</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <dataTypeSize>7</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="FOAIEMATRICOLA" id="8424C416-1DCF-F460-E764-8DA86881EA58">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>07831700-C554-625A-4BA5-76859DD09414</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="FOAIEMATRORIG" id="DD828185-9BA2-0605-FB57-90F151CD6341">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>3EA61935-D6E0-018F-BEB9-D950055E8D8B</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <defaultValue>&amp;apos;N&amp;apos; </defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="FOAIEMATRNR" id="FB4DC40A-750B-99EF-61BD-2A9DA1A1377D">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>8CF07AE2-1D4D-B196-2886-10CCA2BDBBBF</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="FOAIEMATRDATA" id="2A96D833-6467-3648-2E1C-5D370BB1791E">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>01E88B13-EB4D-FC75-2F51-3A3B0ADDDB05</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <dataTypeSize>7</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLBACCOPIELEGALIZATA" id="664B46CC-8FE5-BC6F-3EEB-6C57C63E752B">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>7EFDFE0C-FD86-0885-3A45-93061756915E</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <defaultValue>&amp;apos;N&amp;apos; </defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ADEV_COPIELEGALIZATA" id="5A27BB11-67B4-11E4-F0F7-2A3754ED0EBE">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>25BE3623-21C4-D862-8A1B-C765189F4089</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <defaultValue>&amp;apos;N&amp;apos; </defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLANEMITERE" id="C83D45F8-27AF-6ECE-C73E-861AE204FB10">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>6517C15F-8BA2-CDF4-9440-648614DBE77C</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLEMISDE" id="AF6BBE4F-2156-7A27-A3B4-5B2FCBCD50AC">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>9162D1C9-D95C-70A2-230C-6A5FA52A11BA</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <referedAttribute>9F39FD73-B183-1764-242B-F57190B7B4B3</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ADEV_COPIENELEGALIZATA" id="899BA72E-54A7-02AC-BDDD-BD506C7D42F1">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>261C69A3-5FFD-E2BD-60FD-8DF4D4338BC4</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <defaultValue>&amp;apos;N&amp;apos; </defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DIPLBACCOPIENELEGALIZATA" id="85139EB2-620D-617B-BE00-E9FD2F5ECC59">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>5CCAF361-AFDE-5CE3-292C-13B49BA8DFC5</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <defaultValue>&amp;apos;N&amp;apos; </defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="MSDIPLBACSTATUS" id="EBFEF224-4C27-1354-C89D-BAC952827063">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>A9706FA3-D9EB-92B1-92A0-099D383A1DC1</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="0375D15A-41B7-0800-BBEF-31AB3F0D8321" name="PK_FISAINSCRIERE">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>FE256F4A-1CCD-B95F-48F7-1FB593712255</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>14BC8A7E-3A75-8162-D5E5-3261AD2C35FB</attributeRef>
+         </usedAttributes>
+      </identifier>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="206A5919-808B-3E41-350A-FA84FF74F3C2" name="UK_FISAINSCRIERE_CNPTIPFISA">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>35D16C01-7F17-EB43-DA3B-C468D89A5303</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <usedAttributes>
+            <attributeRef>B065D7C7-B0B4-4154-196E-A79A42292ECF</attributeRef>
+            <attributeRef>34A7E7D0-210E-497E-1CC2-2C680A1E4628</attributeRef>
+         </usedAttributes>
+      </identifier>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="2DC2F995-62C6-9FC3-00D1-D9966D92996B" name="UK_FISAINSCRIERE_TIPNR">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>24497B70-30F3-D1E2-48B7-318BD3CD8C8C</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <usedAttributes>
+            <attributeRef>792D11BD-E952-7775-C696-02B07A988DE6</attributeRef>
+            <attributeRef>34A7E7D0-210E-497E-1CC2-2C680A1E4628</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

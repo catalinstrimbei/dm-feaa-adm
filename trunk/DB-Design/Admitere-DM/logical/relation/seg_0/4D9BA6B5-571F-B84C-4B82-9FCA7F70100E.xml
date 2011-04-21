@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OPTIUNIFISE_NOTE_FISAINSC_FK1" id="4D9BA6B5-571F-B84C-4B82-9FCA7F70100E" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>D20017E2-6315-54F0-697B-0A5914FA067D</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <identifying>true</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>F821C185-076D-19CE-A5E4-6EC7F37814EA</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>FEB02AB3-6885-8ADB-4927-BA96D8F0620E</targetEntity>
+   <transferable>true</transferable>
+</Relation>

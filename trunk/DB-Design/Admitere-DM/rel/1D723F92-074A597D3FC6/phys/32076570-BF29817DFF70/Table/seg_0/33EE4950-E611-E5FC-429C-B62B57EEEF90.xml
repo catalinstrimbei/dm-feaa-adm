@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CAND_SPEC" id="33EE4950-E611-E5FC-429C-B62B57EEEF90" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:05 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <logging>YES</logging>
+   <partitionedRowMovement>DISABLE</partitionedRowMovement>
+   <segment>285011F9-C2D1-969F-5BAE-05FA83199138</segment>
+   <tableSpace>BE5832D7-DB55-7383-2FCD-1DE689BAF37A</tableSpace>
+   <columnProxies>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ATESTAT" id="23E1F17D-EB63-C189-FC22-6C7FBFA5DDD7">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="MEDIE" id="494FB3B4-4627-9716-9B74-52025E22D525">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="IDFISA" id="68515734-0750-5EFB-5055-3ABFED2C368B">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="TAXA" id="70CCF7D2-0B79-88C1-C420-171ABDAD20AD">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <defaultValue>&amp;apos; &amp;apos;</defaultValue>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SPEC" id="A7017849-DC20-E797-2F85-C722FE2B013B">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PRIORITATE" id="BFCAF871-F892-C75F-2B38-3A075D3B8C6A">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+      </ColumnProxy>
+   </columnProxies>
+   <indexProxies>
+      <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_SYS_C0023161" id="56C9143C-D065-62F5-9B3C-65C5F96B8148">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:05 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:05 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <segment>70D79D87-13B9-4AA6-E9AE-FEA1568401B3</segment>
+         <tableSpace>BE5832D7-DB55-7383-2FCD-1DE689BAF37A</tableSpace>
+      </IndexProxy>
+   </indexProxies>
+   <primaryKeys>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SYS_C0023161" id="DDC33EC2-FD40-87BF-D557-EEE1600C4988">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:05 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:05 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <existingIndex>56C9143C-D065-62F5-9B3C-65C5F96B8148</existingIndex>
+         <indexSort>NO</indexSort>
+         <usingIndex>BY INDEX NAME</usingIndex>
+      </PrimaryKey>
+   </primaryKeys>
+</TableProxyOraclev11g>

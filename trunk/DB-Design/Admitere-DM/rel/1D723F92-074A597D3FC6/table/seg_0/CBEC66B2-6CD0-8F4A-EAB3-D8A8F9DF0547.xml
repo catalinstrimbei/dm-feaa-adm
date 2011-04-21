@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="CBEC66B2-6CD0-8F4A-EAB3-D8A8F9DF0547" directorySegmentName="seg_0" name="MODIF_DETALII">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <schemaObject>C0EC9293-EE5C-6792-CD70-97B22C98F4FB</schemaObject>
+   <pkName>PK_MODIF_DETALII</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="IDMODIF" id="3DFF3DE2-72DE-C9E7-2F36-85EC814D768D">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>11</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+         <delegate>7CF7630B-797C-79C3-E3B0-C4D5FE5AB749</delegate>
+         <associations>
+            <colAssociation fkAssociation="16339B94-42F5-8238-582A-B7D4F1B8F0C8" referredColumn="7CF7630B-797C-79C3-E3B0-C4D5FE5AB749"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="TABELA" id="5151EA35-0027-9EA0-F13C-CAE0E5F4179E">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>30 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ATRIBUT" id="6EC98610-A513-A9F5-DFAF-93723CAE47C9">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>30 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="VALVECHE" id="D555E9C2-15CA-D5F4-BDB9-1D781FC97201">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>1000 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="VALNOUA" id="6EBB4052-4098-273E-D3B3-A318E650655D">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>1000 BYTE</dataTypeSize>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3B915850-7EA9-9434-D80F-A4814FC17AB8" name="PK_MODIF_DETALII">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:05 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:05 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <schemaObject>C0EC9293-EE5C-6792-CD70-97B22C98F4FB</schemaObject>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="3DFF3DE2-72DE-C9E7-2F36-85EC814D768D"/>
+            <colUsage columnID="5151EA35-0027-9EA0-F13C-CAE0E5F4179E"/>
+            <colUsage columnID="6EC98610-A513-A9F5-DFAF-93723CAE47C9"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="176301E6-F9AE-59BA-8848-4D04048AEFBB" name="FK_MODIFDET_MODIF">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="3DFF3DE2-72DE-C9E7-2F36-85EC814D768D"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

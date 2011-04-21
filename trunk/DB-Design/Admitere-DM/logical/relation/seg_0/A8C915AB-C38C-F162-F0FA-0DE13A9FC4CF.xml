@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OPTIUNIFISE_NOTE_DISCIPLI_FK1" id="A8C915AB-C38C-F162-F0FA-0DE13A9FC4CF" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>5EAD637E-9D89-0CD8-F6E1-C15509CF2FDA</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <identifying>true</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>5165D78B-5B8A-38EF-D6D1-E48C84CCE57B</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>FEB02AB3-6885-8ADB-4927-BA96D8F0620E</targetEntity>
+   <transferable>true</transferable>
+</Relation>

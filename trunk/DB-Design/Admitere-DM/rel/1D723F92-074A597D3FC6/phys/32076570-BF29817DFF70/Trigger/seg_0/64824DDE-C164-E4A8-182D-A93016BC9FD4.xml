@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_DATEGEN_INS_BEFORE_ROW" id="64824DDE-C164-E4A8-182D-A93016BC9FD4" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <actions>INSERT</actions>
+   <body>BEGIN&amp;lt;br/&amp;gt;--    :NEW.medgenadm := TRUNC(:NEW.medgenlic * 0.6 + :NEW.medgenbac * 0.4, 2) ;&amp;lt;br/&amp;gt;/*&amp;lt;br/&amp;gt;    IF :NEW.buget_stat = &amp;apos;N&amp;apos; AND :NEW.buget_nrsem &amp;gt; 0 THEN&amp;lt;br/&amp;gt;        :NEW.buget_nrsem := 0 ;    &amp;lt;br/&amp;gt;    END IF ;&amp;lt;br/&amp;gt;    IF :NEW.bursa_stud = &amp;apos;N&amp;apos; AND :NEW.bursa_nrsem &amp;gt; 0 THEN&amp;lt;br/&amp;gt;        :NEW.bursa_nrsem := 0 ;    &amp;lt;br/&amp;gt;    END IF ;&amp;lt;br/&amp;gt;*/&amp;lt;br/&amp;gt;  NULL ;&amp;lt;br/&amp;gt;END ;&amp;lt;br/&amp;gt;</body>
+   <triggerTime>BEFORE</triggerTime>
+   <owner>A19B0135-B306-9C2F-77BB-38712D8BCDB5</owner>
+   <table>091E20D3-C348-43A6-98D6-F6D8F08B4AA4</table>
+</TriggerOraclev10g>

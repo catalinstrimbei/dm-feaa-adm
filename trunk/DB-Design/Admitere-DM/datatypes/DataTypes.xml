@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="3F70387A-77A0-7A97-163F-317CA9EA0C47" mainViewID="5D707DCB-3081-395A-32A4-2C7D64CADDEF">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 11:53:08 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 11:53:08 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <shouldBeOpen>false</shouldBeOpen>
+</DataTypesDesign>

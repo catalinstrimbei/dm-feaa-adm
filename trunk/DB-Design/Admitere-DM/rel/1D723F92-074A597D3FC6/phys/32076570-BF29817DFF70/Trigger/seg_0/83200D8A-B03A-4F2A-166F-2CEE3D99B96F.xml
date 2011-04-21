@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_CERERI_DEL_BEFORE_ROW" id="83200D8A-B03A-4F2A-166F-2CEE3D99B96F" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <actions>DELETE</actions>
+   <body>BEGIN&amp;lt;br/&amp;gt;    IF nvl(:OLD.verdict,&amp;apos; &amp;apos;) = &amp;apos;A&amp;apos; THEN&amp;lt;br/&amp;gt;        RAISE_APPLICATION_ERROR(-20159, &amp;apos;Nu poate fi stearsa o cerere aprobata !&amp;apos;);&amp;lt;br/&amp;gt;    END IF;&amp;lt;br/&amp;gt;END ;&amp;lt;br/&amp;gt;</body>
+   <triggerTime>BEFORE</triggerTime>
+   <owner>A19B0135-B306-9C2F-77BB-38712D8BCDB5</owner>
+   <table>D6CE6ED0-E2E1-FF27-C991-DC46E8C7ACF8</table>
+</TriggerOraclev10g>

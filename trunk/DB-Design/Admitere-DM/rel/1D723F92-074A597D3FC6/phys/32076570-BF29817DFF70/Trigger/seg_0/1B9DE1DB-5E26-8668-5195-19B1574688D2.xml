@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_FISE_NOTE_UPD_AFTER_ROW" id="1B9DE1DB-5E26-8668-5195-19B1574688D2" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <actions>UPDATE</actions>
+   <body>DECLARE&amp;lt;br/&amp;gt;    v_are_voie BOOLEAN := FALSE ;&amp;lt;br/&amp;gt;BEGIN  &amp;lt;br/&amp;gt;    FOR i IN 1..pac_variabile_globale.vg_roluri.COUNT LOOP&amp;lt;br/&amp;gt;        IF pac_variabile_globale.vg_roluri (i) IN (&amp;apos;CORECTIE&amp;apos;,&amp;apos;DBA&amp;apos;, &amp;apos;CONTRACTE&amp;apos;, &amp;apos;RETRAGERE&amp;apos;, &amp;apos;PRODECAN&amp;apos;) THEN&amp;lt;br/&amp;gt;            v_are_voie := TRUE ;&amp;lt;br/&amp;gt;        END IF ;            &amp;lt;br/&amp;gt;    END LOOP ; &amp;lt;br/&amp;gt;    IF v_are_voie = FALSE THEN&amp;lt;br/&amp;gt;        RAISE_APPLICATION_ERROR (-20152,&amp;apos;Nu aveti drepturi sa modificati FISE_NOTE&amp;apos;) ; &amp;lt;br/&amp;gt;    END IF ;&amp;lt;br/&amp;gt; &amp;lt;br/&amp;gt;    pac_variabile_globale.vg_idfisa_crt := :NEW.idfisa ;&amp;lt;br/&amp;gt;    pac_variabile_globale.p_init_vg_atribute (&amp;apos;FISE_NOTE&amp;apos;) ;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;    IF pac_variabile_globale.vg_vin_din_optiuni THEN&amp;lt;br/&amp;gt;      NULL ;&amp;lt;br/&amp;gt;    ELSE   &amp;lt;br/&amp;gt;      SELECT seq_idmodif.NextVal INTO pac_variabile_globale.v_seq_idmodif FROM dual ;&amp;lt;br/&amp;gt;    &amp;lt;br/&amp;gt;        INSERT INTO admitere.modificari (idmodif, dataoram, operator, statiem, obs, cnp, idfisa, tip_modif, tabela)&amp;lt;br/&amp;gt;        VALUES (pac_variabile_globale.v_seq_idmodif, SYSDATE, &amp;lt;br/&amp;gt;            admitere.pac_variabile_globale.vg_operator, &amp;lt;br/&amp;gt;            admitere.pac_variabile_globale.vg_statie,&amp;lt;br/&amp;gt;            &amp;apos;UPD-FISE_NOTE&amp;apos;, NULL, :NEW.idfisa, &amp;apos;U&amp;apos;, &amp;apos;FISE_NOTE&amp;apos;) ;    &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;       INSERT INTO UPD_FISE_NOTE (CODDISC,  CODDISCECHIV, NOTA,  IDFISA, idmodif)         &amp;lt;br/&amp;gt;            VALUES (:new.CODDISC,  :new.CODDISCECHIV, :new.NOTA,  :new.IDFISA, pac_variabile_globale.v_seq_idmodif) ;&amp;lt;br/&amp;gt;    END IF ;&amp;lt;br/&amp;gt;        &amp;lt;br/&amp;gt;END ;</body>
+   <triggerTime>AFTER</triggerTime>
+   <owner>A19B0135-B306-9C2F-77BB-38712D8BCDB5</owner>
+   <table>5E581CA3-E530-7A58-95B2-16CBE4B788F6</table>
+</TriggerOraclev10g>

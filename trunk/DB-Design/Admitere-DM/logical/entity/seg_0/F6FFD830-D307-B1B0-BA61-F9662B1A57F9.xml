@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="F6FFD830-D307-B1B0-BA61-F9662B1A57F9" directorySegmentName="seg_0" name="APP_USER_ROLES">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:37 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>42E7F17B-9129-052F-3ADB-3FA3EBA70304</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <pkName>PK_APP_USER_ROLES</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ENABLED" id="06C220E8-9DBD-D616-0236-C2BC83DAC789">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:37 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:37 UTC</changedTime>
+         <generatorID>DBDAF6E7-26CF-0971-4ED4-9CAC8978D370</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="EXPIRE_DATE" id="65FCC2F3-7562-C538-BE4A-7041CB47B5E9">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:37 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:37 UTC</changedTime>
+         <generatorID>B70F494B-B78A-A9B7-BDF7-E9210E3E5EDF</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <dataTypeSize>7</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="USER_ID" id="298454B6-16B3-6C29-49D1-E3B0D2918C20">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:37 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>8D1344AD-9BC8-F5C5-56C4-544D09A534E8</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <referedAttribute>E0F7E7FD-829A-91D2-F6B9-E1F48D6A459C</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+         <propertyMap>
+            <property name="refers.attribute" value="E0F7E7FD-829A-91D2-F6B9-E1F48D6A459C"/>
+         </propertyMap>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ROLE_ID" id="9AE92804-F10C-8245-83CA-4E8C430DBA4F">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:37 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>7DEB3117-2507-1BC8-6ECB-D6F64332A781</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <referedAttribute>D6DF7AB7-D679-19F4-7705-4AB44C1AC4AF</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+         <propertyMap>
+            <property name="refers.attribute" value="D6DF7AB7-D679-19F4-7705-4AB44C1AC4AF"/>
+         </propertyMap>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="208AD4B9-A39A-9293-1188-E109E67EDB68" name="PK_APP_USER_ROLES">
+         <createdBy>catalin.strimbei</createdBy>
+         <createdTime>2011-04-20 12:51:37 UTC</createdTime>
+         <changedBy>catalin.strimbei</changedBy>
+         <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+         <generatorID>9204D648-67F2-D72E-C55D-0D9095D265D9</generatorID>
+         <ownerDesignName>Admitere-DM</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>298454B6-16B3-6C29-49D1-E3B0D2918C20</attributeRef>
+            <attributeRef>9AE92804-F10C-8245-83CA-4E8C430DBA4F</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

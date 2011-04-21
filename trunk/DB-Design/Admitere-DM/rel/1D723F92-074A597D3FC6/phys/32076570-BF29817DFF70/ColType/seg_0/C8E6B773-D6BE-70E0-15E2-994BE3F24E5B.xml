@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CollectionTypeProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.CollectionTypeProxyOraclev10g" name="T_NT_OPTIUNI_MASTER" id="C8E6B773-D6BE-70E0-15E2-994BE3F24E5B" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:02 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:02 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <owner>A19B0135-B306-9C2F-77BB-38712D8BCDB5</owner>
+</CollectionTypeProxyOraclev10g>

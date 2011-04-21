@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_MODIF_DETALII_UPD_DEL" id="AEB3105D-8426-4B9B-1FC0-7C4DD14B9BC7" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <actions>UPDATE, DELETE</actions>
+   <body>BEGIN&amp;lt;br/&amp;gt;    null ;&amp;lt;br/&amp;gt;   --RAISE_APPLICATION_ERROR(-20134,&amp;apos;In tabela MODIF_DETALII nu pot fi facute decit inserari !!!!&amp;apos;) ;&amp;lt;br/&amp;gt;END ;</body>
+   <triggerTime>BEFORE</triggerTime>
+   <owner>A19B0135-B306-9C2F-77BB-38712D8BCDB5</owner>
+   <table>CBEC66B2-6CD0-8F4A-EAB3-D8A8F9DF0547</table>
+</TriggerOraclev10g>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_APP_USER_ROLES_ROLES" id="7DEB3117-2507-1BC8-6ECB-D6F64332A781" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>1FA675E6-65FF-51D5-137D-D97DE9B237FB</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <identifying>true</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>222A02F8-B787-3D1B-1339-FAC9ED432BC0</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>F6FFD830-D307-B1B0-BA61-F9662B1A57F9</targetEntity>
+   <transferable>true</transferable>
+</Relation>

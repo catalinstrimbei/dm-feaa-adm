@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_FISAINSCRIERE_TIPURIFISE" id="C3B12686-CCC5-1A43-BC5D-FA5C37CB02B4" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:51:38 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:51:38 UTC</changedTime>
+   <generatorID>B36F1BE3-AB1C-D73F-E81C-43F4D7059F89</generatorID>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>F65F086A-577F-FDE9-25A7-585D4EB42307</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>F821C185-076D-19CE-A5E4-6EC7F37814EA</targetEntity>
+   <transferable>true</transferable>
+</Relation>

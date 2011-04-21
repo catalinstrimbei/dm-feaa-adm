@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_FISA_INS_BEFORE_ROW" id="0C6CDFF8-8BE2-0E8D-40B4-22634F9B9638" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <actions>INSERT</actions>
+   <body>DECLARE&amp;lt;br/&amp;gt;BEGIN  &amp;lt;br/&amp;gt;  pac_variabile_globale.vg_idfisa_crt := :NEW.idfisa ;&amp;lt;br/&amp;gt;  :new.opinscriere := admitere.pac_variabile_globale.vg_operator;&amp;lt;br/&amp;gt;  :new.stinscriere := admitere.pac_variabile_globale.vg_statie; &amp;lt;br/&amp;gt;  :new.datainscriere := sysdate;  &amp;lt;br/&amp;gt;  IF :NEW.scutit = 0 THEN&amp;lt;br/&amp;gt;      :NEW.scutire_motivatie := NULL ;    &amp;lt;br/&amp;gt;  END IF ;&amp;lt;br/&amp;gt;  &amp;lt;br/&amp;gt;  IF SUBSTR(:NEW.tipfisa,1,1) IN (&amp;apos;E&amp;apos;, &amp;apos;A&amp;apos;)  THEN &amp;lt;br/&amp;gt;    :new.medgenadm := TRUNC(pac_functii.f_medgenlic(:NEW.cnp) * 0.75 + &amp;lt;br/&amp;gt;      pac_functii.f_medgenbac(:NEW.cnp) * 0.25, 2) ;&amp;lt;br/&amp;gt;  END IF ;   &amp;lt;br/&amp;gt;  &amp;lt;br/&amp;gt;  IF SUBSTR(:NEW.tipfisa,1,1) = &amp;apos;M&amp;apos; THEN &amp;lt;br/&amp;gt;    :new.medgenadm := TRUNC(pac_functii.f_medanistud(:NEW.cnp) * 0.6 + &amp;lt;br/&amp;gt;        pac_functii.f_medlicenta(:NEW.cnp) * 0.4, 2) ;&amp;lt;br/&amp;gt;  END IF ;   &amp;lt;br/&amp;gt;    &amp;lt;br/&amp;gt;  /* asta trebuie vazut la preluarea fiselor din teritoriu, la final&amp;lt;br/&amp;gt;  IF :NEW.tipfisa = &amp;apos;ELTR&amp;apos; THEN &amp;lt;br/&amp;gt;        :NEW.profiladm := SUBSTR(LTRIM(:NEW.tipfisa),1,1) ;&amp;lt;br/&amp;gt;        :NEW.taxaadm := &amp;apos;T&amp;apos; ;&amp;lt;br/&amp;gt;        :NEW.fstudiiadm := &amp;apos;D&amp;apos; ;&amp;lt;br/&amp;gt;        IF :NEW.nrfisa BETWEEN 8001 AND 8011 THEN &amp;lt;br/&amp;gt;          :NEW.locadm := &amp;apos;FO&amp;apos; ;&amp;lt;br/&amp;gt;        END IF ;          &amp;lt;br/&amp;gt;        IF :NEW.nrfisa BETWEEN 7501 AND 7524 THEN &amp;lt;br/&amp;gt;          :NEW.locadm := &amp;apos;VD&amp;apos; ;&amp;lt;br/&amp;gt;        END IF ;          &amp;lt;br/&amp;gt;  END IF ;&amp;lt;br/&amp;gt;  */&amp;lt;br/&amp;gt;END ;&amp;lt;br/&amp;gt;</body>
+   <triggerTime>BEFORE</triggerTime>
+   <owner>A19B0135-B306-9C2F-77BB-38712D8BCDB5</owner>
+   <table>0A66D509-BA34-D29E-4656-9909455710E1</table>
+</TriggerOraclev10g>

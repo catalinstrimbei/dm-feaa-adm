@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_STARI_INS_BEFORE_ROW" id="F574BEF8-74D7-59E5-DDA1-C6BC0D8708E5" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <actions>INSERT</actions>
+   <body>BEGIN&amp;lt;br/&amp;gt;  SELECT admitere.seq_idstare.NextVal INTO :NEW.idstare FROM dual ;&amp;lt;br/&amp;gt;  :NEW.datastare := SYSDATE ;&amp;lt;br/&amp;gt;END;&amp;lt;br/&amp;gt;</body>
+   <triggerTime>BEFORE</triggerTime>
+   <owner>A19B0135-B306-9C2F-77BB-38712D8BCDB5</owner>
+   <table>BAEE0ACB-DF52-370F-3300-CD91BB604FEC</table>
+</TriggerOraclev10g>

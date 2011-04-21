@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_OPTIUNIFISE_UPD_BEFORE_ROW" id="F9E9FAED-2672-03DB-6FFA-E43EBBF9F525" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:06 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:06 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <actions>UPDATE</actions>
+   <body>BEGIN  &amp;lt;br/&amp;gt;  NULL ;&amp;lt;br/&amp;gt;/*&amp;lt;br/&amp;gt;  IF :NEW.idfisa &amp;lt;&amp;gt; NVL(pac_variabile_globale.vg_idfisa_crt,0) THEN &amp;lt;br/&amp;gt;    pac_variabile_globale.vg_idfisa_crt := :NEW.idfisa ;&amp;lt;br/&amp;gt;    Update Fisainscriere &amp;lt;br/&amp;gt;    Set opcorectie = admitere.pac_variabile_globale.vg_operator,&amp;lt;br/&amp;gt;      stcorectie = admitere.pac_variabile_globale.vg_statie,&amp;lt;br/&amp;gt;      datacorectie = sysdate  &amp;lt;br/&amp;gt;    Where idfisa = :new.idfisa ; --AND datacorectie &amp;lt; sysdate - (5/(60*24));&amp;lt;br/&amp;gt;   END IF ;  */&amp;lt;br/&amp;gt;END ;&amp;lt;br/&amp;gt;</body>
+   <triggerTime>BEFORE</triggerTime>
+   <owner>A19B0135-B306-9C2F-77BB-38712D8BCDB5</owner>
+   <table>8470276C-0BA4-8926-C1CF-8138C7723238</table>
+</TriggerOraclev10g>

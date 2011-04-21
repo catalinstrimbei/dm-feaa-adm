@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SegmentOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SegmentOraclev10g" name="Segment29" id="BB432A3D-7B2C-5C11-B8E5-A247ECD0FBDE" directorySegmentName="seg_0">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 12:49:04 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 12:49:04 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <maxTrans>255</maxTrans>
+   <scInitialExtent>150994944</scInitialExtent>
+   <scMaxExtents>2147483645</scMaxExtents>
+   <scNextExtent>1048576</scNextExtent>
+</SegmentOraclev10g>

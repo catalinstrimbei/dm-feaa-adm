@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6A2BAFD1-88DA-B279-4220-07A74C77B363" mainViewID="882252B2-2404-FDEE-C9CA-32DDF7D5400E">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2011-04-20 11:53:08 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2011-04-20 11:53:08 UTC</changedTime>
+   <ownerDesignName>Admitere-DM</ownerDesignName>
+   <shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
